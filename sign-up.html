@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width">
+	<meta name="description" content="Sneakers!!!">
+	<meta name="keywords" content="sneakers, shop sneakers, re-cycle sneakers, shoes, adidas, nike, puma, fila">
+	<meta name="author" content="Harmony Emeto">
+	<title>sign up</title>
+	<style>
+		* {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+        a:link {
+			text-decoration: none;
+			color: black;
+			transition: 0.8s;
+		}
+
+		a:hover {
+			cursor: pointer;
+			opacity: 0.5;
+		}
+
+		.container {
+			width: 100%;
+			overflow: hidden;
+			padding-top: 20px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid black;
+		}
+
+		#logo {
+			height: 45px;
+			margin-left: 50px;
+		}
+
+		header nav ul img {
+			height: 30px;
+		}
+
+		header nav {
+			float: right;
+		}
+
+		header li {
+			display: inline;
+			margin-right: 50px;
+		}
+
+		header li a {
+			font-family: "courier new";
+			font-size: 18px;
+			color: black;
+		}
+
+		header li a:hover {
+			font-weight: bold;
+		}
+
+		#formstyle {
+			margin: 5% auto;
+			margin-top: 50px;
+			width: 25%;
+			padding: 30px;
+			color: black;
+			font-size: 17px;
+			font-style: italic;
+			font-family: arial;
+			border: 1px solid #808080;
+			background-color: #f2f2f2;
+		}
+
+		#formstyle a {
+			font-weight: bold;
+		}
+
+		input[type="text"], [type="email"], [type="password"] {
+			border: 2px solid #ccc;
+			width: 100%;
+			padding: 15px 20px;
+			margin: 5px 0;
+			outline: none;
+			transition: 0.8s;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+		}
+
+		input[type="text"]:focus, [type="email"]:focus, [type="password"]:focus {
+			border: 2px solid #000000;
+			font-size: 15px;
+		}
+
+		input[type="submit"] {
+			border: 1px solid #808080;
+			width: 100%;
+			padding: 15px 20px;
+			margin: 15px 0 30px;
+			color: #000000;
+			font-weight: bold;
+			font-size: 15px;
+			outline: none;
+			transition: 0.8s;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+			background-color: #ffffff;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #000000;
+			color: #ffffff;
+			border: none;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<a href="index.html"><img src="./img/snixx.png" id= "logo" /></a>
+			<nav>
+				<ul>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="sign-up.html">Sign up</a></li> 
+					<li><a href="bag.html"><img src="./img/bag.png" /></a></li>
+					<li><a href="sign-in.html"><img src="./img/user.png" /></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div id="formstyle"> 
+	    <form>
+		    <input type="text" name="fullname" placeholder="Full Name"/>
+		    <br />
+		    <input type="email" name="email" placeholder="Email"/>
+		    <br />
+		    <input type="text" name="username" placeholder="Username"/>
+		    <br />
+		    <input type="password" name="pswd" placeholder="Password"/>
+		    <br />
+		    <input type="password" name="pswd" placeholder="Confirm Password"/>
+		    <br />
+		    <input type="submit" value="Submit" />
+	    </form>
+	    <p>By signing up, you agree to our <a href="privacypolicy.html">Terms</a> and <a href="#">Privacy Policy</a>.</p>
+	    <br />
+	    <p>Already have an account? <a href="sign-in.html">Sign in</a></p>
+    </div>
+</body>
+
+</html>
