@@ -1,0 +1,319 @@
+/** Global **/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+body a {
+	text-decoration: none;
+	color: black;
+	transition: 0.8s;
+}
+
+a:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+/** Header **/
+
+.container {
+	width: 100%;
+	overflow: hidden;
+}
+
+header {
+	border-bottom: 1px solid black;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#logo {
+	height: 45px;
+	margin-left: 50px;
+}
+
+header nav ul img {
+	height: 30px;
+}
+
+header nav {
+	float: right;
+}
+
+header li {
+	display: inline;
+	margin-right: 50px;
+}
+
+header li a {
+	font-family: "courier new";
+	font-size: 18px;
+	color: black;
+}
+
+header li a:hover {
+	font-weight: bold;
+}
+
+#bigshow {
+	height: 100vh;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+#bigtext {
+	position: absolute;
+	width: 40%;
+	bottom : 200px;
+	margin-left: 50px;
+}
+
+#bigtext h4 {
+	text-align: left;
+	font-size: 70px;
+	opacity : 0.9;
+	letter-spacing: 2px;
+	line-height: 1.5;
+	font-family: arial;
+}
+
+#bigtext p {
+	text-align: justify;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 1.5;
+	font-family: "courier new";
+}
+
+#bigshow img {
+	height: 100%;
+	width: 100%;
+}
+
+.secguide {
+	margin: 0 50px 100px 50px;
+}
+
+#brands {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 85px;
+	grid-column-gap: 5em;
+	margin-top: 50px;
+}
+
+#brands img {
+    width: 100%;
+    height: 85px;
+}
+
+/** Section titles **/
+
+.title, h3 {
+	font-family: arial;
+	font-size: 22px;
+	margin: 100px 0 30px 0;
+}
+
+/** Just in, Trending now and Coming soon **/
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 313px;
+	grid-column-gap: 1em;
+}
+
+
+.wrapper img {
+	height: 255px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+/** Customize and top blog section **/
+
+.wrapper2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 1em;
+	position: relative;
+}
+
+#big {
+	grid-area: 1 / 1 / span 2 / span 2;
+}
+
+.wrapper2 img {
+	height: 100%;
+	width: 100%;
+}
+
+/** Text on #big **/
+
+#an {
+	position: absolute;
+	bottom: 100px;
+	left: 50px;
+	width: 40%;
+	color: #cc6600;
+	font-size: 80px;
+	font-family: arial;
+}
+
+#btonpic {
+	opacity: 0.8;
+}
+
+/** Recycle old shoes **/
+
+.d-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 85vh;
+	grid-gap: 1em;
+}
+
+.d-wrapper img {
+	height: 100%;
+	width: 100%;
+}
+
+.d-wrapper h4 {
+	font-size: 90px;
+	font-family: arial;
+	color: #008000;
+}
+
+/** Blog **/
+
+.wrapper3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 400px;
+	grid-column-gap: 1em;
+}
+
+.wrapper3 img {
+	height: 100%;
+	width: 100%;
+}
+
+footer p {
+	font-size: 18px;
+	font-family: "courier new";
+	text-align: center;
+	font-weight: bold;
+	color: #808080;
+}
+
+footer ul img {
+	height: 60px;
+	width: 60px;
+	padding: 10px;
+}
+
+#social {
+	margin: auto;
+	width: 220px;
+}
+
+footer li {
+	display: inline;
+}
+
+footer li a:hover {
+	cursor: pointer;
+}
+
+#wrappers {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 500px 500px 500px 500px;
+	grid-gap: 2em;
+}
+
+#wrappers img {
+	height: 350px;
+	width: 100%;
+}
+
+.shopbt {
+	width: 100%;
+	font-size: 15px;
+}
+
+#wrappers p {
+	font-size: 18px;
+	font-family: "courier new";
+	text-align: center;
+	margin: 5px;
+	font-weight: bold;
+}
+
+.wrapperr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 350px;
+	grid-gap: 1em;
+}
+
+#mt {
+	margin-top: 50px;
+}
+
+.wrapperr img {
+	height: 100%;
+	width: 100%;
+}
+
+input[type="checkbox"] {
+	margin: 20px 0 30px 0;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+	border: 2px solid #ccc;
+	width: 50%;
+	padding: 20px 20px;
+	margin: 10px 0;
+	outline: none;
+	transition: 0.8s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
+	border: 2px solid #000000;
+	font-size: 15px;
+}
+
+button {
+	border: 1px solid #808080;
+	padding: 10px 20px;
+	margin: 10px 0;
+	color: #000000;
+	font-weight: bold;
+	font-size: 11px;
+	outline: none;
+	transition: 0.8s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)			
+}
+
+button:hover {
+	background-color: #000000;
+	color: #ffffff;
+	border: none;
+}
+
+span {
+	color: #0000ff;
+}
